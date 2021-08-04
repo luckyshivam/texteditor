@@ -1,0 +1,79 @@
+#day{
+    color:black;
+    height: 0.7cm;
+    width: 3cm;
+    margin-left: 450px;
+    margin-top: 1cm;
+    cursor: pointer;
+
+}
+#topic{
+    color: black;
+    height: 0.7cm;
+    margin-right: 200px;
+    width: 7cm;
+    padding-left: 2cm;
+    cursor: pointer;
+    
+    
+}
+#button{
+    
+    height: 00.7cm;
+background-color:rgb(3, 159, 221);
+color: white;
+margin-left: 550px;
+margin-top: 1cm;
+border-radius: 8px;
+width: 4cm;
+border-color:rgb(3, 159, 221);
+cursor: pointer;
+}
+#txtarea{
+    margin-top: 1cm;
+
+}
+#txtarea2{
+    margin-top: 1cm;
+    margin-left: 4cm;
+    align-content: center;
+    margin-left: 200px;
+}
+#txtarea3{
+    
+    margin-left: 4cm;
+    align-content: center;
+    margin-left: 200px;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+.toolbar {}
+.tool-list {
+	display: flex;
+	flex-flow: row nowrap;
+	list-style: none;
+	padding: 0;
+	margin: 1rem;
+	overflow: hidden;
+	border-raduis: 10px;
+}
+.tool {}
+.tool--btn {
+	display: block;
+	border: none;
+	padding: .5rem;
+	font-size: 20px;
+}
+
+#input {
+	height: 400px;
+    width: 1200px; 
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	margin: 1rem;
+	padding: 1rem;
+}
